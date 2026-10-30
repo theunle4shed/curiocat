@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+<!-- CurioCat: CurioVision's "curio cabinet" (SamsungIPTV/images/logo.svg: same frame, stand and
+     compartment colours) with a white cat rising from the bottom left of the screen, in front of the
+     compartments. The cat is clipped to the compartment area, so the dark border inside the frame
+     stays. The dot in the dark compartment is a white cat's eye. -->
+<defs><clipPath id="screen"><rect x="24" y="24" width="152" height="92" rx="8"/></clipPath></defs>
+<rect x="24" y="24" width="56" height="92" rx="8" fill="#4A8CFF"/>
+<rect x="88" y="24" width="88" height="40" rx="8" fill="#3CCF91"/>
+<rect x="88" y="72" width="40" height="44" rx="8" fill="#F5C518"/>
+<rect x="136" y="72" width="40" height="44" rx="8" fill="#2A3038"/>
+<path d="M142 94 Q156 80 170 94 Q156 108 142 94 Z" fill="#F2F4F7"/>
+<ellipse cx="156" cy="94" rx="2.6" ry="7.5" fill="#0E1116"/>
+<g clip-path="url(#screen)">
+    <g transform="translate(4,0)">
+        <path d="M10 130 L10 104 Q14 94 30 93 Q36 92 38 88 Q32 78 33 68 L37 36 L58 52 Q68 49 78 52 L99 36 L103 68 Q105 82 97 92 Q110 108 116 130 Z" fill="#F2F4F7"/>
+        <g stroke="#F2F4F7" stroke-width="2.5" stroke-linecap="round">
+            <line x1="56" y1="84" x2="20" y2="78"/><line x1="56" y1="87" x2="19" y2="88"/><line x1="56" y1="90" x2="21" y2="98"/>
+            <line x1="80" y1="84" x2="122" y2="78"/><line x1="80" y1="87" x2="123" y2="88"/><line x1="80" y1="90" x2="121" y2="98"/>
+        </g>
+        <ellipse cx="56" cy="72" rx="6" ry="4.5" fill="#0E1116"/>
+        <ellipse cx="80" cy="72" rx="6" ry="4.5" fill="#0E1116"/>
+        <path d="M65 80 L71 80 L68 84 Z" fill="#0E1116"/>
+    </g>
+</g>
+<rect x="8" y="8" width="184" height="124" rx="22" fill="none" stroke="#F2F4F7" stroke-width="8"/>
+<rect x="80" y="140" width="40" height="8" rx="4" fill="#F2F4F7"/>
+</svg>
